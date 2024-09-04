@@ -12,11 +12,12 @@ There are numerous projects that depend on what's happening here. We'll get some
 
 Hopefully hear from you soon.
 
-@jimcircadian - 29th Feb 2024
+@jimcircadian - September 2024
 
 ## Projects
 
 The projects contained herein are generalised tools used as part of forecasting and modelling efforts within BAS.
 
-* [download-toolbox](https://github.com/environmental-forecasting/download-toolbox): a general purpose download library that allows people to grab data from numerous common environmental endpoints, then perform regular functions on them as a singular, integrated dataset.
+* [download-toolbox](https://github.com/environmental-forecasting/download-toolbox): a general purpose download library that allows people to grab data from numerous common environmental endpoints, then pass these onto various downstream applications in a consistent form, with configurations.
+* [preprocess-toolbox](https://github.com/environmental-forecasting/preprocess-toolbox): a general purpose preprocessing library that ingests datasets and creates a parseable structure 
 * [model-ensembler](https://github.com/environmental-forecasting/model-ensembler): a "low profile" (it doesn't need complex runners or installation beyond a python environment) for running batches of workflows on HPCs. Used for data and process models extensively in BAS projects. 
